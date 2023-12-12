@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplote Task : Ankush Panchal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .navbar{
+            background-color: #ff7171;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 5rem;
+        }
+        .navbar ul li{
+                display: inline;
+                list-style-type: none;
+                padding: 1rem;
+                font-weight: 600;
+                font-size: 1.2rem;
+                margin: 0 1rem 0 1rem;
+                /* border: 1px solid black; */
+        }
+        .fa-reorder{
+            font-size: 2rem;
+        }
+        .row{
+            display: flex;
+            flex-direction:row;
+            background: rgb(198,183,40);
+            background: linear-gradient(90deg, rgba(198,183,40,0.756827731092437) 0%, rgba(255,113,113,0.756827731092437) 95%);
+        }
+        .col1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .col{
+            width: 50%;
+            height: 90vh;
+            text-align: center;
+        }
+       .col .desc{
+            display: block;
+            font-family: 'Oswald', sans-serif;
+            text-align: left;
+            margin-left: 10rem;
+            width: 70%;
+       }
+        .col2{
+            /* object-fit: cover; Scale the image to cover the entire container */
+            display: block;
+            overflow: hidden;
+        }
+        .col2 img{
+            position: relative;
+            height: 50vh;
+            width: 31rem;
+            /* top: -20rem; */
+            left: -6rem;
+            zoom: 2;
+        }
+        .hero-heading{
+            display: block;
+            font-size: 3rem;
+            font-weight:500;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1rem;
+            margin-bottom: 2rem;
+        }   
+        .button-div{
+            text-align: left;
+            margin-left: 10rem;
+            }
+        .click-me{
+            background-color: #ff7171;    
+            border:none;
+            color:white;
+            margin-top: 2rem;
+            padding:0.9rem 4rem 0.9rem 4rem;
+        }
+        
+        .img1 img{
+            width: 200px;
+            height: 200px;
+        }
+        .img2 img{
+            width: 200px;
+            height: 420px;
+        }
+       
+        .outer-section{
+            padding: 2rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            align-items: center;
+            width: 50%;
+        }
+        .outer-section img{
+            padding: 0.5rem;
+        }
+
+      .sec-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+      }
+      .sec-row .heading{
+        font-size: 1rem;
+        font-family: 'Oswald', sans-serif;
+      }
+      .sec-row .lower-heading{
+        font-size: 3rem;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 0.3rem;
+        font-weight: 500;
+      }
+      .sec-row .click{
+        padding-top: 1rem;
+        font-family: 'Oswald', sans-serif;
+      }
+      .sec-row{
+        background-color: #ff7171;
+      }
+    .second-block{
+        display: flex;
+        flex-direction: row;
+        background: rgb(198,183,40);
+background: linear-gradient(90deg, rgba(198,183,40,0.756827731092437) 11%, rgba(255,113,249,0.756827731092437) 89%);
+    }
+    </style>
+</head>
+<body>
+    <!-- navbar start -->
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>Order</li>
+            <li>Food</li>
+            <li>Restaurant</li>
+            <li>Testimonial</li>
+            <li>Contact Us</li>
+            <li><i class="fa fa-reorder"></i></li>
+        </ul>
+
+    </div>
+    <!-- navbar ends -->
+    <!-- hero section start -->
+    <div class="row">
+        <div class="col col1">
+            <div class="container">
+                <div>
+                    <span class="hero-heading">Lorem Ipsum</span>
+                </div>
+                <div class="desc">
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti qui eligendi enim vero, in quod iure exercitationem! Dolorum, atque. Hic ipsum aspernatur autem nemo quae veritatis consequatur modi facere. Deserunt?
+                    Corporis alias eligendi minus, eos iure deserunt repudiandae blanditiis quisquam culpa architecto quod. Nesciunt, voluptates. Ex voluptate architecto quidem amet et possimus quod doloremque labore sequi impedit, facilis praesentium eius?
+                    </span>
+                </div>
+                <div class="button-div">
+                    <button class="click-me">Click Me</button>
+                </div>                
+            </div>
+        </div>
+        <div class="col col2">
+            <img src="./assets/pexels-robin-stickel-70497.jpg" alt="">
+        </div>
+    </div>
+    <!-- hero section ends -->
+    <br>
+    <!-- second section start -->
+    <div class="second-block">
+        <div class="outer-section">
+                <div class="col-1">
+                    <div  class="img1">
+                        <img  src="./assets/pexels-rachel-claire-6752433.jpg" alt="">
+                    </div>
+                    <div class="img1">
+                        <img  src="./assets/pexels-eva-bronzini-6141651.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-2 img2">
+                    <img src="./assets/pexels-mister-mister-3434523.jpg" alt="">
+                </div>
+        </div>
+        <div class="outer-section" style="justify-content: left;">
+                <div class="sec-row">
+                    <span class="heading">LOREM IPSUM</span>
+                    <span class="lower-heading">LOREM IPSUM <br> SET ADEMIR</span>
+                    <span class="click"> Click <i class="fa fa-arrows-h"></i></span>
+                </div>
+        </div>
+    </div>
+    <!-- second section ends -->
+</body>
+</html>
